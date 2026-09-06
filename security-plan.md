@@ -93,7 +93,7 @@ Direct connections expose the database to the internet, creating a massive secur
 A load balancer distributes incoming user traffic evenly across multiple application servers. This ensures high availability and prevents any single server from crashing under heavy load.
 
 7. **What happens if one application server fails?**
-The load balancer detects the failure and automatically redirects traffic to the remaining healthy application servers[cite: 1]. This keeps the application online without interruption.
+The load balancer detects the failure and automatically redirects traffic to the remaining healthy application servers. This keeps the application online without interruption.
 
 8. **What is the purpose of a CDN?**
 A CDN caches static files on servers geographically closer to the user to improve loading speeds. It also reduces the strain on the main application servers by handling static content delivery.
@@ -105,7 +105,7 @@ Administrator accounts have total control over the cloud environment, making the
 Following the principle of least privilege minimizes the risk of accidental deletions, misconfigurations, or internal security breaches. Only personnel who absolutely require administrative access to perform their duties should be granted it.
 
 11. **Why are logging and monitoring important?**
-Logging and monitoring provide critical visibility into the system to detect suspicious behavior and audit access[cite: 1]. They allow security teams to troubleshoot performance issues and respond to threats quickly.
+Logging and monitoring provide critical visibility into the system to detect suspicious behavior and audit access. They allow security teams to troubleshoot performance issues and respond to threats quickly.
 
 12. **Why are backups important?**
 Backups ensure that crucial student data can be quickly recovered in an emergency. They protect the system against data loss from accidental deletion, hardware failure, or ransomware attacks.
